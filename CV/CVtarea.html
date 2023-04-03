@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>CVtarea</title>
+    <link rel="stylesheet" href="CVtareacss.css"/>
 </head>
 <body>
     <h1>Curriculum Vitae</h1>
@@ -22,21 +23,28 @@
         <li>Scareface</li>
         <li>Nueve Reinas</li>
     </ul>
-    <h4>Perfil</h4>
-    <p>Me gusta la montaña con actividades al aire libre, sobre todo el trekking y MTB como deportes principales, tambien me gusta mucho mi trabajo que consiste en operar fracturas del miembro inferior, tengo mucho entusiasmo en aprender cosas nuevas y creativas, como lo es la programación, por lo cual estare muy atento a esta Diplomatura</p>
-    <h4>Para contactarme, podes completar el siguiente Formulario:</h4>
-    <form action="">
-        <p>
-            <label for="Nombre">Nombre</label>
-            <input type="text">
-        </p>
-        <p>
-            <label for="Apellido">apellido</label>
-            <input type="text">
-        </p>
-        <p>
-            <label for="email">email</label>
-            <input type="email">
-        </p>
-    </form>
+    <div id="caja">
+        <h4>Perfil</h4>
+        <p>Me gusta la montaña con actividades al aire libre, sobre todo el <span class="destacado">trekking y MTB</span> como deportes principales, tambien me gusta mucho mi trabajo que consiste en <span class="destacado">operar fracturas</span> del miembro inferior, tengo mucho entusiasmo en aprender cosas nuevas y creativas, como lo es la <span class="destacado">programación</span>, por lo cual estare muy atento a esta Diplomatura</p>
+    </div>
+    <h5>Para contactarme, podes completar el siguiente Formulario:</h5>
+    <div id="cajaform">
+        <form action="">
+            <p>
+                <label for="Nombre">Nombre</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="Apellido">apellido</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input type="email">
+            </p>
+            <p>
+                <input type="submit" value="ENVIAR"/>
+            </p>
+        </form>
+    </div>
 </html>
